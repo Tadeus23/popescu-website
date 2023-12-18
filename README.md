@@ -70,4 +70,4 @@ The website is deployed on Heroku. Visit the live site at [this link](https://po
 Contributions are welcome to enhance the website. Please follow standard git workflow procedures for contributions.
 
 ## Contact
-For any inquiries or suggestions, please reach out to Catalin Popescu at popescu351@gmai.com .
+For any inquiries or suggestions, please reach out to me at popescu351@gmail.com .
