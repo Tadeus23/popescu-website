@@ -15,7 +15,7 @@ Access the live website at: [https://popescu-website-flask-883aeefd7871.herokuap
 - Flask
 - Python
 - HTML/CSS
-- JavaScript (if used)
+- JavaScript
 - Heroku
 
 ## Installation and Setup
