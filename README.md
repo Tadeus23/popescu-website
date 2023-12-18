@@ -3,7 +3,7 @@
 ## Introduction
 Welcome to my official portfolio website. This Flask-based web application showcases my professional work and skills. The website parses data from Python's `data.py` file and renders it into HTML, providing a dynamic and interactive user experience.
 
-Access the live website at: [https://popescu-website-flask-883aeefd7871.herokuapp.com/](https://popescu-website-flask-883aeefd7871.herokuapp.com/)
+Access the live website at: [this link](https://popescu-website-flask-883aeefd7871.herokuapp.com/](https://popescu-website-flask-883aeefd7871.herokuapp.com/)
 
 ## Features
 - **Portfolio Showcase**: Displays my professional projects and achievements.
@@ -68,9 +68,6 @@ The website is deployed on Heroku. Visit the live site at [this link](https://po
 
 ## Contributing
 Contributions are welcome to enhance the website. Please follow standard git workflow procedures for contributions.
-
-## License
-This project is open-sourced under the MIT License.
 
 ## Contact
 For any inquiries or suggestions, please reach out to Catalin Popescu at popescu351@gmai.com .
