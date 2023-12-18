@@ -1,12 +1,12 @@
 # Catalin Popescu's Portfolio Website
 
 ## Introduction
-Welcome to Catalin Popescu's official portfolio website. This Flask-based web application showcases Catalin's professional work and skills. The website parses data from Python's `data.py` file and renders it into HTML, providing a dynamic and interactive user experience.
+Welcome to my official portfolio website. This Flask-based web application showcases my professional work and skills. The website parses data from Python's `data.py` file and renders it into HTML, providing a dynamic and interactive user experience.
 
 Access the live website at: [https://popescu-website-flask-883aeefd7871.herokuapp.com/](https://popescu-website-flask-883aeefd7871.herokuapp.com/)
 
 ## Features
-- **Portfolio Showcase**: Displays Catalin's professional projects and achievements.
+- **Portfolio Showcase**: Displays my professional projects and achievements.
 - **Data-driven Content**: Dynamically parses data from `data.py` to HTML, ensuring up-to-date content.
 - **Responsive Design**: Offers an optimal browsing experience across different devices.
 - **Flask CLI Commands**: Custom command-line interface commands for advanced interactions.
@@ -37,14 +37,14 @@ The website will be accessible locally at `http://localhost:5000`.
 
 ## Application Routes
 - **Home Page (`/`)**: Main portfolio page, displaying data parsed from `data.py`.
-- **Personal Info (`/personal`)**: Returns Catalin's personal information in JSON format.
-- **Experience (`/experience`)**: Returns Catalin's professional experience in JSON format.
-- **Education (`/education`)**: Returns Catalin's educational background in JSON format.
-- **Skills (`/skills`)**: Returns Catalin's skills in JSON format.
-- **Certifications (`/certifications`)**: Returns Catalin's certifications in JSON format.
+- **Personal Info (`/personal`)**: Returns my personal information in JSON format.
+- **Experience (`/experience`)**: Returns my professional experience in JSON format.
+- **Education (`/education`)**: Returns my educational background in JSON format.
+- **Skills (`/skills`)**: Returns my skills in JSON format.
+- **Certifications (`/certifications`)**: Returns my certifications in JSON format.
 
 ## Using Flask CLI Commands
-Custom Flask CLI commands for managing Catalin's CV data:
+Custom Flask CLI commands for managing my CV data:
 - **Get CV Data**: `flask get-cv` - Displays the complete CV data.
 - **Add Skill**: `flask add-skill` - Adds a new skill to the CV.
 - **Delete Skill**: `flask delete-skill [index]` - Deletes a skill from the CV based on its index.
