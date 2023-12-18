@@ -1,7 +1,7 @@
 from flask import Flask, render_template, Response, jsonify
 import json
 import os
-from config import cv_data
+from data import cv_data
 
 
 def create_app():

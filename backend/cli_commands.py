@@ -1,5 +1,5 @@
 import click
-from config import cv_data
+from data import cv_data
 import json
 
 
