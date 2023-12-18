@@ -1,115 +1,76 @@
-# CV Data Flask Application
+# Catalin Popescu's Portfolio Website
 
-Welcome to the CV Data Flask Application!
+## Introduction
+Welcome to Catalin Popescu's official portfolio website. This Flask-based web application showcases Catalin's professional work and skills. The website parses data from Python's `data.py` file and renders it into HTML, providing a dynamic and interactive user experience.
 
-Follow the steps below to get started.
+Access the live website at: [https://popescu-website-flask-883aeefd7871.herokuapp.com/](https://popescu-website-flask-883aeefd7871.herokuapp.com/)
 
-## Getting Started
+## Features
+- **Portfolio Showcase**: Displays Catalin's professional projects and achievements.
+- **Data-driven Content**: Dynamically parses data from `data.py` to HTML, ensuring up-to-date content.
+- **Responsive Design**: Offers an optimal browsing experience across different devices.
+- **Flask CLI Commands**: Custom command-line interface commands for advanced interactions.
 
-### ‣ Prerequisites
+## Technologies Used
+- Flask
+- Python
+- HTML/CSS
+- JavaScript (if used)
+- Heroku
 
-1. Make sure you have [Python](https://www.python.org/downloads/) installed on your computer.
-2. Download this project and extract it to a folder of your choice.
+## Installation and Setup
+### Installing Python
+If Python is not already installed on your system, download and install it from [python.org](https://www.python.org/downloads/). Follow the instructions for your specific operating system.
 
-### ‣ Install Dependencies
+### Setting Up the Project
+1. Clone the repository:
+> git clone [repository URL]
 
-Open a command prompt or terminal in the project folder and run the following command to install the required dependencies:
-
+2. In the project directory, install the required dependencies:
 > pip install -r requirements.txt
 
-In the command prompt or terminal, run the following command to start the application:
-
+### Running Locally
+To run the application:
 > python app.py
 
-The application will start, and you'll see some output indicating that the server is running.
+The website will be accessible locally at `http://localhost:5000`.
 
-> * Serving Flask app 'app'
-> * Debug mode: on
-> WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
-> * Running on http://127.0.0.1:5000
-> Press CTRL+C to quit
-> * Restarting with stat
-> * Debugger is active!
-> * Debugger PIN: 694-322-092
+## Application Routes
+- **Home Page (`/`)**: Main portfolio page, displaying data parsed from `data.py`.
+- **Personal Info (`/personal`)**: Returns Catalin's personal information in JSON format.
+- **Experience (`/experience`)**: Returns Catalin's professional experience in JSON format.
+- **Education (`/education`)**: Returns Catalin's educational background in JSON format.
+- **Skills (`/skills`)**: Returns Catalin's skills in JSON format.
+- **Certifications (`/certifications`)**: Returns Catalin's certifications in JSON format.
 
-### ‣ Access the data via local web server
+## Using Flask CLI Commands
+Custom Flask CLI commands for managing Catalin's CV data:
+- **Get CV Data**: `flask get-cv` - Displays the complete CV data.
+- **Add Skill**: `flask add-skill` - Adds a new skill to the CV.
+- **Delete Skill**: `flask delete-skill [index]` - Deletes a skill from the CV based on its index.
+- **Update Skill**: `flask update-skill [index]` - Updates a specific skill in the CV.
 
-You can access your CV data using the following endpoints:
+## Heroku CLI Commands
+Interact with the application on Heroku using the Heroku CLI:
+> heroku logs --tail -a popescu-website-flask
+> heroku ps:scale web=1 -a popescu-website-flask
 
-**Personal Information: http://localhost:5000/personal (GET)**
+## Testing
+Run the included tests to ensure the application's functionality:
+> python tests.py
 
-**Experience: http://localhost:5000/experience (GET)**
+## Code Style and Linting
+The project adheres to PEP 8 standards, enforced using flake8:
+> flake8 --config app.flake8
 
-**Education: http://localhost:5000/education (GET)**
+## Deployment
+The website is deployed on Heroku. Visit the live site at [this link](https://popescu-website-flask-883aeefd7871.herokuapp.com/).
 
-**Skills: http://localhost:5000/skills (GET)**
+## Contributing
+Contributions are welcome to enhance the website. Please follow standard git workflow procedures for contributions.
 
-**Certifications: http://localhost:5000/certifications (GET)**
+## License
+This project is open-sourced under the MIT License.
 
-
-### ‣ Access the data via CLI Command - Local
-
-Open a new command prompt or terminal in the project folder and run the following:
-
-Get CV Data:
-
-> flask get-cv
-
-
-### ‣ Access the data via Heroku web server
-
-**Personal Information: https://flask-cv-app-5c06e202e6d2.herokuapp.com/personal (GET)**
-
-**Experience: https://flask-cv-app-5c06e202e6d2.herokuapp.com/experience (GET)**
-
-**Education: https://flask-cv-app-5c06e202e6d2.herokuapp.com/education (GET)**
-
-**Skills: https://flask-cv-app-5c06e202e6d2.herokuapp.com/skills (GET)**
-
-**Certifications: https://flask-cv-app-5c06e202e6d2.herokuapp.com/certifications (GET)**
-
-
-### ‣ Access the data via Heroku CLI Commands
-
-**Install Heroku CLI:**
-
-Download and install the Heroku CLI from the official [Heroku Dev Center](https://devcenter.heroku.com/articles/heroku-cli).
-
-**Login to Heroku:**
-
-[Register](https://signup.heroku.com/login) in order to get an account.
-
-Open your terminal or command prompt.
-
-Run the following command to log in to your Heroku account:
-
-'heroku login'
-
-**Access Remote Shell:**
-
-To access a remote shell on your Heroku app (flask-cv-app), run:
-
-> heroku run bash -a flask-cv-app
-
-**Run CLI Command:**
-
-Once in the remote shell, execute the following command to get the entire CV data:
-
-> flask get-cv
-
-**View Data:**
-
-The CLI command will display the CV data in JSON format.
-
-**Exit the Remote Shell:**
-
-After reviewing the data, type:
-
-> exit
-
-Press Enter to close the remote connection.
-
-
-
-**If you have any issues or questions, feel free to reach out for assistance.**
-
+## Contact
+For any inquiries or suggestions, please reach out to Catalin Popescu at popescu351@gmai.com .
