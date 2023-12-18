@@ -1,4 +1,4 @@
-# Catalin Popescu's Portfolio Website
+# Cătălin Popescu's Portfolio Website
 
 ## Introduction
 Welcome to my official portfolio website. This Flask-based web application showcases my professional work and skills. The website parses data from Python's `data.py` file and renders it into HTML, providing a dynamic and interactive user experience.
